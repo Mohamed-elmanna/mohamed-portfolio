@@ -55,17 +55,6 @@ export default function Publications() {
                 </a>
               )}
               
-              {pub.code && (
-                <a
-                  href={pub.code}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-slate-600 hover:underline"
-                >
-                  View Gitub code →
-                </a>
-              )}
-              
             </div>
           </div>
         ))}
