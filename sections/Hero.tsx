@@ -53,7 +53,7 @@ export default function Hero() {
           </div>
 
           {/* Right Side */}
-          <div className="flex justify-center -mt-90">
+          <div className="flex justify-center mt-6 md:-mt-40 lg:-mt-90">
             <div className="relative h-40 w-40 overflow-hidden rounded-full border-8 border-white bg-slate-200 shadow-2xl">
               <Image
                 src="/portfolio-assets/A professional photo.jpg"
