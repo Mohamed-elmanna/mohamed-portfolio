@@ -11,7 +11,6 @@ export const publications: Publication[] = [
     status: "Published",
     doi: "https://doi.org/10.1007/s10278-026-01854-x",
     pdf: "",
-    code: "",
   },
   {
     id: "msa-unet3-2026",
@@ -23,7 +22,6 @@ export const publications: Publication[] = [
     status: "Published",
     doi: "https://doi.org/10.1016/j.bspc.2026.110539",
     pdf: "",
-    code: "",
   },
   {
     id: "seg-class-RBCs-2024",
@@ -35,7 +33,6 @@ export const publications: Publication[] = [
     status: "Preprint",
     doi: "https://doi.org/10.48550/arXiv.2403.18468",
     pdf: "https://arxiv.org/pdf/2403.18468",
-    code: "https://github.com/Mohamed-elmanna/Segmentation-and-Classification-of-Red-Blood-Cells.git",
   },
   {
     id: "stain-scan-norm-RBCs-2024",
@@ -47,7 +44,6 @@ export const publications: Publication[] = [
     status: "Preprint",
     doi: "https://dx.doi.org/10.2139/ssrn.4772605",
     pdf: "",
-    code: "",
   },
   {
     id: "cad-mammography-2015",
@@ -59,6 +55,5 @@ export const publications: Publication[] = [
     status: "Published",
     doi: "https://doi.org/10.1109/ICCNEEE.2015.7381387",
     pdf: "/portfolio-assets/Publication PDFs/Implementation of Practical CAD system .pdf",
-    code: "",
   },
 ];
