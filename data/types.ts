@@ -25,7 +25,7 @@ export type Project = {
   github?: string;
 };
 
-export type PublicationStatus = "Published" | "Under Review";
+export type PublicationStatus = "Published" | "Under Review" | "Preprint";
 
 export type Publication = {
   id: string;
