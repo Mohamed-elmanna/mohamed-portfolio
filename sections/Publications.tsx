@@ -7,7 +7,7 @@ export default function Publications() {
     <Section id="publications" maxWidth="6xl" className="bg-slate-50 py-24">
       <SectionTitle
         title="Publications"
-        subtitle="Selected peer-reviewed research publications."
+        subtitle="Selected peer-reviewed and preprint research papers."
       />
 
       <div className="space-y-6">
@@ -54,6 +54,18 @@ export default function Publications() {
                   View PDF →
                 </a>
               )}
+              
+              {pub.code && (
+                <a
+                  href={pub.code}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-slate-600 hover:underline"
+                >
+                  View Gitub code →
+                </a>
+              )}
+              
             </div>
           </div>
         ))}
